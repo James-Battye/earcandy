@@ -1,8 +1,8 @@
 {
-  "name": "@yes-chef/your-project",
+  "name": "@yes-chef/earcandy",
   "version": "0.0.0",
-  "description": "Project description.",
-  "homepage": "https://github.com/james-battye/your-project#readme",
+  "description": "Earcandy Webflow Project Custom Code.",
+  "homepage": "https://github.com/james-battye/earcandy#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/james-battye/your-project.git"
+    "url": "git+https://github.com/james-battye/earcandy.git"
   },
   "bugs": {
-    "url": "https://github.com/james-battye/your-project/issues"
+    "url": "https://github.com/james-battye/earcandy/issues"
   },
   "type": "module",
   "main": "src/index.ts",
@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "@finsweet/ts-utils": "^0.39.2",
+    "gsap": "^3.12.5",
     "swiper": "^11.0.3"
   },
   "engines": {

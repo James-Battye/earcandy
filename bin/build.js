@@ -6,8 +6,19 @@ import { join, sep } from 'path';
 const BUILD_DIRECTORY = 'dist';
 const PRODUCTION = process.env.NODE_ENV === 'production';
 
-// Config entrypoint files
-const ENTRY_POINTS = [''];
+/*
+
+  Config entrypoint files 
+
+*/
+// HERE
+const ENTRY_POINTS = ['src/heroAnimation.ts'];
+// HERE
+/*
+
+Config entrypoint files 
+
+*/
 
 // Config dev serving
 const LIVE_RELOAD = !PRODUCTION;
