@@ -12,7 +12,14 @@ const PRODUCTION = process.env.NODE_ENV === 'production';
 
 */
 // HERE
-const ENTRY_POINTS = ['src/heroAnimation.ts'];
+const ENTRY_POINTS = [
+  'src/logoAnimation.ts',
+  'src/hoverEffect.ts',
+  'src/signup.ts',
+  'src/about.ts',
+  'src/studio.ts',
+  'src/contact.ts',
+];
 // HERE
 /*
 
