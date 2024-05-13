@@ -26,7 +26,7 @@ if (address.lines) {
       address.lines[0].querySelectorAll('.char'),
       {
         yPercent: 100,
-        stagger: 0.05,
+        stagger: 0.025,
       },
       '<0.5'
     )
@@ -34,7 +34,7 @@ if (address.lines) {
       address.lines[1].querySelectorAll('.char'),
       {
         yPercent: 100,
-        stagger: 0.05,
+        stagger: 0.025,
       },
       '<0.1'
     )
@@ -42,7 +42,7 @@ if (address.lines) {
       address.lines[2].querySelectorAll('.char'),
       {
         yPercent: 100,
-        stagger: 0.05,
+        stagger: 0.025,
       },
       '<0.1'
     );
@@ -52,7 +52,7 @@ if (address.lines) {
       address.lines[3].querySelectorAll('.char'),
       {
         yPercent: 100,
-        stagger: 0.05,
+        stagger: 0.025,
       },
       '<0.1'
     );
@@ -65,7 +65,20 @@ if (address.lines) {
       filter: 'blur(5px)',
     },
     '<+0.5'
-  ).from('.contact_map', {
-    opacity: 0,
-  });
+  )
+    .from(
+      '.contact_map',
+      {
+        opacity: 0,
+      },
+      '<'
+    )
+    .from(
+      '.footer_component',
+      {
+        opacity: 0,
+        autoAlpha: 0,
+      },
+      '<'
+    );
 }
