@@ -4,6 +4,10 @@ import SplitType from 'split-type';
 new SplitType('h1', { types: 'lines,chars' });
 const address = new SplitType('.contact_address', { types: 'lines,chars' });
 
+gsap.from('.main-wrapper', {
+  autoAlpha: 0,
+});
+
 const tl = gsap.timeline();
 
 if (address.lines) {
