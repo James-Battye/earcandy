@@ -23,6 +23,7 @@ const ENTRY_POINTS = [
   'src/blog_list.ts',
   'src/home.ts',
   'src/blog_post.ts',
+  'src/videoPlayer.js',
 ];
 // HERE
 /*
