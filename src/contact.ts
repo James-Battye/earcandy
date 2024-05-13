@@ -65,5 +65,7 @@ if (address.lines) {
       filter: 'blur(5px)',
     },
     '<+0.5'
-  );
+  ).from('.contact_map', {
+    opacity: 0,
+  });
 }
