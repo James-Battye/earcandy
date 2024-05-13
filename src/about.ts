@@ -32,7 +32,7 @@ intro
     stagger: 0.05,
   })
   .from(
-    '.grid_col-10.is-about-what .char',
+    '.about-what_h-wrap .char',
     {
       yPercent: 100,
       stagger: 0.05,

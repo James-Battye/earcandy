@@ -19,6 +19,10 @@ const ENTRY_POINTS = [
   'src/about.ts',
   'src/studio.ts',
   'src/contact.ts',
+  'src/pageTransition.js',
+  'src/blog_list.ts',
+  'src/home.ts',
+  'src/blog_post.ts',
 ];
 // HERE
 /*
