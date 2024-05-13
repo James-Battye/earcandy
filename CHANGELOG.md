@@ -1,5 +1,12 @@
 # @yes-chef/earcandy
 
+## 0.0.4
+
+### Patch Changes
+
+- 146fc27: added mainwrapper animation to contact
+- c10ef73: contact map adjustment
+
 ## 0.0.3
 
 ### Patch Changes
