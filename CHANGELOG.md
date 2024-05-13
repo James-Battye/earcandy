@@ -1,5 +1,11 @@
 # @yes-chef/earcandy
 
+## 0.0.3
+
+### Patch Changes
+
+- 1a46f2b: added new animations
+
 ## 0.0.2
 
 ### Patch Changes
