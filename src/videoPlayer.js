@@ -8,13 +8,16 @@ function pauseVideos() {
   });
 }
 
-new LazyLoad({
-  callback_loaded: function (e) {
-    if (e.tagName === 'IFRAME') {
-      videoPlayers.push(new Vimeo.Player(e, e.getAttribute('video-id')));
-    }
+new LazyLoad(
+  {
+    callback_loaded: function (e) {
+      if (e.tagName === 'IFRAME') {
+        videoPlayers.push(new Vimeo.Player(e, e.getAttribute('video-id')));
+      }
+    },
   },
-});
+  document.querySelectorAll('iframe')
+);
 
 setTimeout(() => {
   const slider = ycAttributes.sliders['videos-0'];

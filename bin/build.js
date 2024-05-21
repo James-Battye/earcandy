@@ -24,6 +24,8 @@ const ENTRY_POINTS = [
   'src/home.ts',
   'src/blog_post.ts',
   'src/videoPlayer.js',
+  'src/sliders.js',
+  'src/videoHover.js',
 ];
 // HERE
 /*
