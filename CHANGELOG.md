@@ -1,5 +1,11 @@
 # @yes-chef/earcandy
 
+## 0.0.6
+
+### Patch Changes
+
+- e86c38b: Added slider code and video hover code
+
 ## 0.0.5
 
 ### Patch Changes
