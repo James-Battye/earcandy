@@ -1,5 +1,12 @@
 # @yes-chef/earcandy
 
+## 0.0.5
+
+### Patch Changes
+
+- ab96822: contact improvements
+- 088ea8f: Added video support
+
 ## 0.0.4
 
 ### Patch Changes
