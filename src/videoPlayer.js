@@ -13,17 +13,13 @@ function initVideoPlayers() {
     {
       elements_selector: 'iframe',
       callback_loaded: function (iframe) {
-        if (iframe.tagName === 'IFRAME') {
-          videoPlayers.push(new Vimeo.Player(iframe, { id: iframe.getAttribute('video-id') }));
-          console.log('loaded');
-        }
+        videoPlayers.push(new Vimeo.Player(iframe, { id: iframe.getAttribute('video-id') }));
       },
     },
     document.querySelectorAll('.video-popup_wrap.is-open iframe')
   );
 }
 
-// Setting up MutationObserver to observe changes in the class attribute of the popup
 const popupWrapper = document.querySelector('.video-popup_wrap');
 const observer = new MutationObserver((mutations) => {
   mutations.forEach((mutation) => {
@@ -38,14 +34,12 @@ const observer = new MutationObserver((mutations) => {
   });
 });
 
-// Start observing
 observer.observe(popupWrapper, { attributes: true });
 
 document.querySelector('.video-popup_close-icon').addEventListener('click', () => {
   pauseVideos();
 });
 
-// Assuming ycAttributes and sliders are already defined elsewhere in your script
 setTimeout(() => {
   const slider = ycAttributes.sliders['videos-0'];
   slider.on('slideChange', () => {
