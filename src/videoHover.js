@@ -16,13 +16,14 @@ window.addEventListener('DOMContentLoaded', () => {
           },
           videoArray
         );
-      } else {
-        video.currentTime = 0;
-        video.play();
       }
+      // else {
+      //   // video.currentTime = 0;
+      //   video.play();
+      // }
     });
   });
-  element.addEventListener('mouseleave', () => {
-    video.pause();
-  });
+  // element.addEventListener('mouseleave', () => {
+  //   video.pause();
+  // });
 });

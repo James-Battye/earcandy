@@ -11,7 +11,6 @@ const PRODUCTION = process.env.NODE_ENV === 'production';
   Config entrypoint files 
 
 */
-// HERE
 const ENTRY_POINTS = [
   'src/logoAnimation.ts',
   'src/hoverEffect.ts',
@@ -27,10 +26,9 @@ const ENTRY_POINTS = [
   'src/sliders.js',
   'src/videoHover.js',
 ];
-// HERE
 /*
 
-Config entrypoint files 
+End of onfig entrypoint files 
 
 */
 
