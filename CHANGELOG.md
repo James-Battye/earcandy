@@ -1,5 +1,11 @@
 # @yes-chef/earcandy
 
+## 0.0.9
+
+### Patch Changes
+
+- b886668: Videos don't stop anymore
+
 ## 0.0.8
 
 ### Patch Changes
