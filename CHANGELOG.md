@@ -1,5 +1,11 @@
 # @yes-chef/earcandy
 
+## 0.0.10
+
+### Patch Changes
+
+- 73366fc: Adjusted video hover
+
 ## 0.0.9
 
 ### Patch Changes
